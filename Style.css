@@ -1,0 +1,518 @@
+
+html {
+    scroll-behavior: smooth; direction: rtl; }
+
+body {
+    margin: 0px 0px 0px 0px }
+
+.B_ground {
+    background-image: url(laibrary.jpg); margin:0px 0px 0px 0px; height: 2400px;
+}
+
+.back_g {
+    background-color:#ffffff80; margin:0px 0% 0px 0%; height: 2400px;
+}
+
+.head {
+    background-color:  #ffffffec ; color: rgb(0, 0, 0); margin: -58px 80% 60px 0px; font-size: 50px; font-weight: bold ;
+}
+
+.header {
+    height: 76px; width:100%; padding: 10px 0px; margin-bottom: 30px; /* margin-top: 0px; */ transition: all 1s;
+    background-color: #dfdfdf; font-size: 28px; position: sticky; top: 0; margin-right: auto;
+}
+
+.post-slider{ border: 1px solid red; }
+
+.post-slider, .post-wrapper{
+    width: 84%; height: 350px; margin: 0px auto;
+    border: 1px dashed red; overflow: hidden;}
+
+.post-slider, .post-wrapper, .post{
+    background: grey;
+    display: inline-block;
+    width: 300px; height: 350px;
+}
+
+.sticky {
+    width:100%; height:65px;
+}
+
+.name {
+    color: white; margin: 7px 0px 0px 0%; font-size:40px; font-weight: bold; border-radius: 45px;
+    background-color: #4e3227; padding: 4px 16px 4px 16px;
+}
+
+a { color: black; text-decoration: none; display: inline-block; }
+
+.name:hover{
+    color:rgb(201, 201, 201);
+}
+
+.lists {
+    height: 75px; margin: 0px 15% 32px 15%; color: rgb(255, 255, 255); font-size: 28px;
+}
+
+
+.gets {
+    direction: rtl; margin-bottom: 0px; margin-top: -64px; margin-right: 14%; width: 278px;
+}
+
+.login, .reg {
+    background-color: #4e3227; color: whitesmoke; margin: 10px 0% 10px 5px; font-size: 17px;
+    font-weight: bold; border-radius: 50px; text-align: center; padding: 16px 24px 16px 24px; font-family: Arial;
+}
+
+.reg {
+    background-color: whitesmoke; color: #4e3227; margin: 10px 0% 10px 0px;}
+
+.lists > ul > li {
+    display: inline; text-align: center; color: #4e3227;
+}
+
+
+.ulhome, .ulhome{ padding: 0px 8% 0% 0px; margin: -45px 35% auto 0%; }
+
+.ulhomet{  margin: -69px 35% auto 0%; }
+
+.lists > ul > li > a {
+    margin-right: 60px
+}
+
+.login:hover {
+    background-color: white;
+    color: #4e3227;
+}
+
+.reg:hover {
+    background-color: #4e3227;
+    color:white;
+}
+
+.lists > ul > li > a:hover{
+    visibility: visible;
+    color: black;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+#one:target ~ hr {
+   margin-left: 0px
+}
+
+#three:target ~ hr {
+    margin-right: 412px;
+    width: 159px;
+}
+
+#four:target ~ hr {
+    margin-right: 639px;
+    width: 79px;
+}
+
+.message { background-color: #ffffffc2; height: 230px; width: 70%; margin: 0px auto 64px auto;
+    color: black; text-align: -webkit-center; padding-top: 55px; transition: all 0.3s; text-align: -moz-center;
+    border-radius: 25px; }
+
+.animate1 {
+    font-size: 55px;
+animation-name: wellcome;
+animation-duration: 2s;
+width: 493px;
+border-radius: 35px;
+}
+
+@keyframes wellcome {
+    0%   {top:-50px;}
+    50% {top: 0px;}
+}
+
+.animate2 {
+    font-size: 27px;
+    margin-top: 40px;
+    animation-name: msg_text;
+    animation-duration: 2s;
+    width: 743px;
+    border-radius: 35px;
+}
+
+@keyframes msg_text {
+    0% {bottom:-50px;}
+    50% {bottom:0px;}
+}
+
+.hr_animate, .hr_log, .hr_animate_reg, .hrt, .hrt, .hr_per, .tow, .towH {
+    position: relative; animation-name: hrinimate; animation-duration: 2s; height: 4px; width: 147px; margin: -52px 917px 0px 0%;
+     background: #4e3227; border: none; transition: all 0.5s cubic-bezier(0.6, -0.28, 0.74, 0.05) 0s; border-radius: 45px;
+}
+
+.hr_per{ margin: -52px 1204px 0px 0%; width: 160px; }
+
+.tow {
+    margin: -52px 1063px 0px 0%; width: 78px;
+}
+
+.towH {
+    margin: -52px 1130px 0px 0%; width: 78px;
+}
+
+.hrt{ margin: -52px 851px 0px 0%; }
+
+.hr_log{ width: 140px; margin: -45px 465px 0px 0%; }
+
+.hr_animate_reg {
+  animation-name: hrinimate_reg; width: 140px; margin: -45px 600px 0px 0%;
+}
+
+@keyframes hrinimate_reg {
+    0% {left:-130px;}
+    50% {left:0px;}
+}
+
+@keyframes hrinimate {
+    0% {right:-130px;}
+    50% {right:0px;}
+}
+
+.B_ground_login {
+    background-image: url(laibrary.jpg);
+    margin:0px 0px 0px 0px;
+    height: 1450px;
+}
+
+/*.hr_log {
+    height: 4px;
+    width: 135px;
+    margin: 0% 182px 5px 0%;
+    background: #4e3227;
+    border: none;
+    transition: all 0.5s cubic-bezier(0.6, -0.28, 0.74, 0.05) 0s;
+    border-radius: 45px;
+}*/
+
+.gets_log {
+    direction: rtl;
+    margin-bottom: 0px;
+    margin-top: -64px;
+    margin-right: 188px;
+    width: 278px;
+}
+ 
+.back_g_log {
+    background-color:#ffffff80;
+    margin:0px 0% 0px 0%;
+    height: 1450px;
+}
+
+
+
+.hr_login {
+    background: rgba(0, 0, 0, 0.87)
+}
+
+.box_login {
+    text-align: center;
+    background-color: #7a7ae6;
+    padding: 5px 25px 5px 25px;
+    width: auto;
+    height:402px;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+}
+
+.mail, .pass, .lastname, .choose_path {
+    width: 305px; font-size: 20px; text-align: right;
+}
+
+.fileup{
+    opacity: 0;
+    margin-top: -28px;
+    height: 28px;
+}
+
+.file_text{
+    background-color: rgb(211, 211, 211); border-radius: 10px; padding: 3px 5px;
+}
+
+
+.mail_icon {
+    background-image: url(maillogo.jpg);
+    width: 20px;
+  height: 15px;
+  background-size: 100% 100%;
+}
+
+.mail > ul > li {
+display: inline;
+}
+
+
+.mail_text {
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+    
+}
+
+
+.pass_icon {
+    background-image: url(look.jpg);
+    width: 20px;
+  height: 15px;
+  background-size: 100% 100%;
+}
+
+.pass_icon_con {
+    background-image: url(look.jpg);
+    width: 20px;
+  height: 15px;
+  background-size: 100% 100%;
+}
+
+li{
+    display: inline;
+}
+
+.pass_text {
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+}
+
+.ul_in{
+    margin-bottom: 0px; padding-right: 0px;
+}
+
+.ul_insert{ margin-bottom: 0px; width: 300px; text-align: right; padding-right: 0px; }
+
+.click_log, .logout, .click_change, .click_reg-c {
+    background-color: #4e3227; color: rgb(255, 255, 255); margin: 10px 0px 10px 5px; font-size: 18px; font-weight: bold;
+    border-radius: 50px; text-align: center; padding: 14px 22px; font-family: Arial; border: 1px; cursor: pointer;
+}
+
+.click_change{ padding: 14px 30px; }
+
+.logout{ background-color: red; }
+
+ .click_reg-c { width: 500px;
+    margin-left: -745px;
+    font-size: 30px;
+    padding: 10px 10px; }
+
+.info_reg, .info_log {
+    background-color:#fffffff6; width: 70%; margin: 0px auto 32px auto; color: black; text-align: -webkit-center;
+    padding-top: 15px; transition: all 0.3s; text-align: -moz-center;
+}
+.info_log {
+    padding-top: 55px; padding-bottom: 20px;
+}
+
+.hr_reg { height: 4px; width: 130px; margin: 0% 319px 5px 0%; background: #4e3227; border: none;
+    transition: all 0.5s cubic-bezier(0.6, -0.28, 0.74, 0.05) 0s; border-radius: 45px;
+  }
+
+.name_icon {
+    background-image: url(name.jpg);
+    width: 20px;
+  height: 15px;
+  background-size: 100% 100%;
+  color:#333333
+}
+
+.lastname_icon {
+    background-image: url(name.jpg);
+    width: 20px;
+  height: 15px;
+  background-size: 100% 100%;
+  color:#333333
+}
+
+.lastname > ul > li {
+    display: inline;
+}
+
+.phone_icon {
+    background-image: url(phone3.jpg);
+    width: 20px;
+    height: 15px;
+    background-size: 100% 100%;
+    color:#33333300
+}
+
+.choose_path > ul > li {
+    display: inline;
+}
+
+.path {
+    height: 30px;
+    width: 305px;
+    font-size: 20px;
+}
+
+.div_courses, .div_courses_t, .div_links {
+    background-color:#ffffffc2; height: 330px; margin: 0px auto 32px auto; color: black; text-align: center;
+    padding: 120px 0% 0px 0%; transition: all 0.3s; text-align: -webkit-center; text-align: -moz-center;
+}
+
+
+.div_links{ margin-top: 100px; }
+
+.div_courses_t{ height: auto; width: 70%; border-radius: 50px; padding-top: 25px; padding-bottom: 25px; }
+
+.div_s{ margin-top: 195px; }
+
+.box_div{ width: 1335px; padding-right: 25px; }
+
+.N_course {
+    font-size: 55px;
+  animation-name: wellcome;
+  animation-duration: 2s;
+}
+
+.First_c, .c_links, .First_t { height: 340px; width: 250px; background-color: #fdfdfd; border-radius: 10%;
+    margin-top: 95px; margin-left: 80px; display: inline-block; text-align: center; }
+
+.First_t { margin-top: 13px; }
+
+.c_links{ height: 450px; }
+
+.c_img, .c1_img {
+    background-image: url(learning.jpg);
+    margin: 0px 0px 0px 0px;
+    width: 250px;
+    height: 175px;
+    background-size: 100% 100%;
+    border-radius: 10%;
+}
+
+.c1_img { width: 500px; height: 350px; margin-left: -745px; }
+
+.c1_info { width: 700px; height: 500px; background-color: #80808031; margin-right: -540px; margin-top: -424px; text-align: right;
+    padding: 5px 10px; border-radius: 10px; }
+
+.c1_info > ul > li { display: list-item; font-size: 25px;}
+
+.c_info {
+    color:#4e3227;
+    padding:15px 5px 10px 5px;
+    font-size:32px
+}
+
+
+
+.c_info > span {
+    font-size: 22px;
+}
+
+.second_c, .link2, .link3, .link4 {
+    height: 500px;
+    width: 250px;
+    background-color: #fdfdfd;
+    border-radius: 10%;
+    margin-top: 36px;
+    margin-left: 80px;
+    display: inline-flex; /*transform: translate(80px, -105px);*/
+}
+/*
+.link2{ }
+.link3{ }
+.link4{ } */
+
+.hr_personal {
+    height: 4px;
+    width: 158px;
+    margin: 0% 986px 5px 0%;
+    background: #4e3227;
+    border: none;
+    transition: all 0.5s cubic-bezier(0.6, -0.28, 0.74, 0.05) 0s;
+    border-radius: 45px;
+}
+
+.info_personal {
+    background-color:#fffffff6; width: 70%; margin: 0px auto 32px auto;
+    color: black; text-align: right; padding-top: 20px; transition: all 0.3s; height: 725px;
+}
+
+.info_personal > h2 {
+    margin-right: 15px;
+}
+
+.account_info {
+    margin-right: 15px;
+    font-size: 26px;
+
+}
+
+.mail_p, .uname_p, .lname_p, .phnum_p {
+    width:340px; margin: 10px 5px 10px 5px; font-size: 25px;
+}
+
+.uname_p { margin: -131px 370px 0px 0px; }
+
+.lname_p{ margin: -84px 370px 0px 0px; }
+
+.phnum_p{  margin: -74px 735px 0px 0px; }
+
+.ch_pass { width: 310px; margin: -70px 740px 11px 0px; font-size: 25px; }
+
+.change_pass, .change_e {
+    background-color: #4e3227; color: whitesmoke; margin: 15px 5px 10px 5px; font-size: 20px; border-radius: 50px;
+     text-align: center; padding: 16px 40px 16px 40px; font-family: Arial;
+}
+.change_e{ padding: 8px 16px; margin: 5px 0px 3px 0px; }
+
+.mail_text_p, .uname_text_p, .pass_text_p, .phnumber_p, .crti{
+    height: 40px; width: 330px; font-size: 20px; background-color: rgba(128, 128, 128, 0.192); border-radius: 4px; padding-right: 5px;
+}
+.crti{ width:400px; height:120px }
+
+.PhNum_p {
+    width: 340px;  margin: -85px 369px 11px 0px; font-size: 25px;
+}
+
+.b_info {
+    width: 99%; height: auto; padding:0px; margin:5px 10px 5px 10px;
+}
+
+.log-out{
+    margin: -65px 1420px 0px 0px; width: 150px;
+}
+
+.hello { color: black; margin-right: 8px; font-size: 30px; margin-top: 22px; }
+
+.ihave{ color:red; font-weight: bold; font-size: 22px; }
+
+.drob {
+    background-image: url(drob.jpg);
+    margin: 0px 0px 0px 0px;
+    width: 250px;
+    height: 175px;
+    background-size: 100% 100%;
+    border-radius: 10%;
+}
+
+.hemam {
+    background-image: url(hemam.JPG);
+    margin: 0px 0px 0px 0px;
+    width: 250px;
+    height: 175px;
+    background-size: 100% 100%;
+    border-radius: 10%;
+}
+
+.ksuelearning { background-image: url(KSU_BackgroundLogo.JPG); margin: 0px 0px 0px 0px; width: 250px;
+    height: 175px; background-size: 100% 100%; border-radius: 10%; }
+
+.tmken { background-image: url(tmken.jpg); margin: 0px 0px 0px 0px; width: 250px; height: 175px;
+    background-size: 100% 100%; border-radius: 10%; }
+
+.footer { text-align: center; font-size: 20px; }
+
+.viewc:hover { cursor: pointer; }
+
+.view-course { height: 670px; width: 95%; border-radius: 10px; padding: 10px 5px;}
+
+.about{ font-size: 28px; }
+
+.logopdf{ background-image: url(PDF_file_icon.svg); background-size: 100% 100%; height: 150px; width: 124px; display: block;}
